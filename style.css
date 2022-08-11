@@ -9,19 +9,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .container{
-    position: relative;
     width: 95%;
-    height: 90vh;
+    height: 80vh;
     display: flex;
-    /* border: 1px solid black; */
 }
 
 .quotes{
     width: 900px;
-    height: 450px;
+    height: 550px;
     margin: auto;
     display: flex;
     align-items: center;
@@ -51,9 +50,6 @@ button{
     height: 30px;
     border-radius: 20px;
     border: 1px solid red;
-    position: absolute;
-    top: 650px;
-    left: 403px;   
 }
 
 @media (max-width:480px) {
