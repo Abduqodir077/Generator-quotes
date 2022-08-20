@@ -13,20 +13,6 @@ function generate(){
         " - Том Хэнкс" : '"Люди – слишком сложные существа, чтобы понять их полностью"'
     }
 
-    // const data = [
-    //     {
-    //         id: 0,
-    //         img: "./img/1519855918965.jfif"    
-    //     },
-    //     {
-    //         id: 1,
-    //         img: "./img/1575479070098.jfif"
-    //     }
-    // ];
-
-    // const obj = JSON.parse(data);
-    // document.getElementById("0").innerHTML = img;
-
     let authors = Object.keys(quotes);
 
     let author = authors[Math.floor(Math.random() * authors.length)];
