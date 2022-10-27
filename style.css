@@ -61,3 +61,13 @@ button{
         font-size: 1rem;
     }
 }
+
+@media (max-width: 320px) {
+    .quotes p{
+        font-size: 0.8rem;
+    }
+    
+    .quotes h3{
+        font-size: 0.8rem;
+    }
+}
